@@ -1,0 +1,40 @@
+{
+  "name": "app-store-api",
+  "version": "1.0.0",
+  "description": "A server-side application of App Store.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .ts --fix",
+    "tsc": "tsc",
+    "start:dev": "ts-node src/Bootstrap.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mkrtich",
+  "license": "ISC",
+  "dependencies": {
+    "@overnightjs/core": "^1.7.6",
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.12",
+    "@types/sequelize": "^4.28.10",
+    "@types/uuid-validate": "0.0.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fastest-validator": "^1.12.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-beta.2",
+    "sequelize-cli": "^6.3.0",
+    "uuid-validate": "0.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.12",
+    "@types/validator": "^13.7.0",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^8.4.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.3"
+  }
+}
